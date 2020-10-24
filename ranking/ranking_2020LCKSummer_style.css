@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {}
+#header {height: 300px; background: #111; background: rgba(8,25,53,0.95);}
+#contents {}
+#footer {height: 75px; background: rgba(8,25,53,0.95);}
+
+/* 컨텐츠 레이아웃 */
+.cont-nav {height: 54px; background: rgba(255,220,70,0.8);}
+.cont-cont {background: #f5f5f5;}
+
+/* 컨테이너 */
+#header .container {background: url(../img/header_img_Take_over.jpg) center no-repeat;}
+.container {width: 1000px; height: inherit; margin: 0 auto;}
+
+/* 헤더 */
+.header-tit {}
+.header-tit h1 a {display: block; color: rgba(255,255,255,255); line-height: 250px; font-size: 170px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+.header-tit p {font-style: bold; color: rgba(255,255,255,255); font-size: 30px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+
+/* cont-네브 */
+.nav {}
+.nav ul {overflow: hidden;}
+.nav li {width: 233px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
+.nav li:hover {border-bottom: 4px solid #333; margin-bottom: -2px;}
+.nav li a {font-size: 20px; color: #333;}
+
+/* cont-매뉴 */
+.container {}
+.container .menu {padding-top: 30px; padding-bottom: 30px;}
+.container .menu table {margin: 0 auto;}
+.container .menu table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.container .menu table .inst th {width: 250px;}
+.container .menu table .inst th img {height: 50px;}
+.container .menu table tr {}
+.container .menu table tr td {width: 84px;}
+
+/* cont-우승 */
+.win {padding-bottom: 30px;}
+.win h3 {font-size: 30px; padding: 10px 0 25px 30px;}
+.win table {margin: 0 auto;}
+.win table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.win table .inst th { width: 800px;}
+.win table tr {}
+.win table tr td {}
+.win table tr td img {height: 100px; padding: 10px 0;}
+.win table tr td div {font-size: 15px;}
+
+/* cont-플레이오프 */
+.playoff { margin: 0 auto;}
+.playoff h3 {font-size: 30px; padding: 30px 0 25px 30px;}
+.playoff table {margin: 0 auto;}
+.playoff table tr {}
+.playoff table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.playoff table tr th {width: 1500px;}
+.playoff table tr .arrow {width: 200px; background: #ffffff; border-color: rgba(0,0,0,0); color: #000000;}
+.playoff table tr .win {border-left: 3px solid #FFD700;}
+.playoff table tr .lose {border-left: 3px solid #BDBDBD;}
+.playoff table tr td {position: relative; height: 50px;}
+.playoff table tr td .img_container {position: absolute; transform: translateX(-50%); line-height: 50px; left: 50px; top: 10px;}
+.playoff table tr td .img_container img {height: 40px; vertical-align: middle;}
+.playoff table tr td .team_container {position: absolute; transform: translateX(-50%); left: 130px; top: 25px;}
+.playoff table tr td .team_container .team {}
+.playoff table tr td .score_container {position: absolute; transform: translateX(-50%); left: 170px; top: 25px;}
+.playoff table tr td .score_container .score {}
+
+/* cont-정규리그 */
+.regular_league {}
+.regular_league h3 {font-size: 30px; padding: 30px 0 25px 30px;}
+.regular_league table {margin: 0 auto; margin-bottom: 30px;}
+.regular_league table tr {}
+.regular_league table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.regular_league table .thickLine {border-right: 3px solid #aaa;}
+.regular_league table tr th {}
+.regular_league table tr td {}
+.regular_league table tr td img {height: 40px;}
+
+/* cont-POG */
+.pog {}
+.pog h3 {font-size: 35px; padding: 30px 0 25px 30px;}
+.pog table {margin: 0 auto; margin-bottom: 30px;}
+.pog table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.pog table tr {}
+.pog table tr .thickLine {border-right: 3px solid #aaa;}
+.pog table tr th {}
+.pog table tr td {}
+.pog table tr td img {height: 25px;}
+
+/* 푸터 */
+.footer {}
+.footer p {color: rgba(255,255,255,1); text-align: center; padding-top: 10px;}
+.footer address {color: rgba(255,255,255,1); text-align: center; padding-top:regular_league

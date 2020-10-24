@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {}
+#header {height: 300px; background: #111; background: rgba(8,25,53,0.95);}
+#contents {}
+#footer {height: 75px; background: rgba(8,25,53,0.95);}
+
+/* 컨텐츠 레이아웃 */
+.cont-nav {height: 54px; background: rgba(255,220,70,0.8);}
+.cont-cont {background: #f5f5f5;}
+
+/* 컨테이너 */
+#header .container {background: url(../img/header_img_Take_over.jpg) center no-repeat;}
+.container {width: 1000px; height: inherit; margin: 0 auto;}
+
+/* 헤더 */
+.header-tit {}
+.header-tit h1 a {display: block; color: rgba(255,255,255,255); line-height: 250px; font-size: 170px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+.header-tit p {font-style: bold; color: rgba(255,255,255,255); font-size: 30px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+
+/* 컨텐츠-네브 */
+.nav {}
+.nav ul {overflow: hidden;}
+.nav li {width: 233px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
+.nav li:hover {border-bottom: 4px solid #333; margin-bottom: -2px;}
+.nav li a {font-size: 20px; color: #333;}
+
+/* cont-매뉴 */
+.container .menu {padding-top: 30px; padding-bottom: 30px;}
+.container .menu table {margin: 0 auto;}
+.container .menu table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.container .menu table .inst th {width: 250px;}
+.container .menu table .inst th img {height: 50px;}
+.container .menu table tr {}
+.container .menu table tr td {width: 84px;}
+
+/* cont-우승 */
+.cont-win {padding-bottom: 30px;}
+.cont-win h3 {font-size: 30px; padding: 10px 0 25px 30px;}
+.cont-win table {margin: 0 auto;}
+.cont-win table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.cont-win table .inst th {width: 800px;}
+.cont-win table tr {}
+.cont-win table tr td {}
+.cont-win table tr td img {height: 100px; padding: 10px 0;}
+.cont-win table tr td span {}
+
+/* cont-토너먼트 */
+.tournament {padding-bottom: 30px;}
+.tournament h3 {font-size: 30px; padding: 10px 0 25px 30px;}
+.tournament table {margin: 0 auto;}
+.tournament table .bold {border-bottom: 3px;}
+.tournament table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.tournament table tr {}
+.tournament table tr td {width: 270px; height: 30px; border-right: 3px solid #555555;}
+.tournament table tr .win {border-left: 3px solid #FFD700;}
+.tournament table tr .lose {border-left: 3px solid #BDBDBD;}
+.tournament table tr td .img_container {}
+.tournament table tr td .img_container img {height: 30px; vertical-align: middle;}
+.tournament table tr td .team_container {text-align: center;}
+.tournament table tr td .team_container team {}
+.tournament table tr td .score_container {text-align: center;}
+.tournament table tr td .score_container score {}
+
+/* cont-그룹스테이지 */
+.group {padding-bottom: 30px;}
+.group h3 {font-size: 30px; padding: 10px 0 25px 30px;}
+.group table {margin: 0 auto;}
+.group table tr {}
+.group table tr th {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.group table tr td {width: 400px; height: 60px; position: relative;}
+.group table tr td .rank_container {position: absolute; left: 30px; top: 15px;}
+.group table tr td .rank_container .rank {font-size: 30px; font-weight: bold;}
+.group table tr td .img_container {position: absolute; transform: translateX(-50%); line-height: 50px; left: 120px; top: 10px;}
+.group table tr td .img_container img {height: 40px; vertical-align: middle;}
+.group table tr td .team_container {text-align: center; position: absolute; left: 200px;}
+.group table tr td .team_container .team {}
+.group table tr td .score_container {text-align: center; position: absolute; left: 330px;}
+.group table tr td .score_container .score {}
+
+
+/* 푸터 */
+.footer {}
+.footer p {color: rgba(255,255,255,1); text-align: center; padding-top: 10px;}
+.footer address {color: rgba(255,255,255,1); text-align: center; padding-top: 10px;}
