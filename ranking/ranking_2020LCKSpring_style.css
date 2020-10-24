@@ -12,7 +12,7 @@
 
 /* 컨테이너 */
 #header .container {background: url(../img/header_img_Take_over.jpg) center no-repeat;}
-.container {width: 1000px; height: inherit; margin: 0 auto;}
+.container {width: 900px; height: inherit; margin: 0 auto;}
 
 /* 헤더 */
 .header-tit {}
@@ -22,7 +22,7 @@
 /* cont-네브 */
 .nav {}
 .nav ul {overflow: hidden;}
-.nav li {width: 233px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
+.nav li {width: 200px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
 .nav li:hover {border-bottom: 4px solid #333; margin-bottom: -2px;}
 .nav li a {font-size: 20px; color: #333;}
 
