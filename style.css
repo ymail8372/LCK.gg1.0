@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {}
+#header {height: 300px; background: #111; background: rgba(8,25,53,0.95);}
+#contents {}
+#footer {height: 75px; background: rgba(8,25,53,0.95);}
+
+/* 컨텐츠 레이아웃 */
+.cont-nav {height: 54px; background: rgba(255,220,70,0.8);}
+.cont-cont {background: #f5f5f5;}
+
+/* 컨테이너 */
+#header .container {background: url(img/header_img_Take_over.jpg) center no-repeat;}
+.container {width: 1000px; height: inherit; margin: 0 auto;}
+
+/* 헤더 */
+.header-tit {}
+.header-tit h1 {color: rgba(255,255,255,255); line-height: 250px; font-size: 170px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+.header-tit p {font-style: bold; color: rgba(255,255,255,255); font-size: 30px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
+
+/* cont-네브 */
+.nav {}
+.nav ul {overflow: hidden;}
+.nav li {width: 233px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
+.nav li:hover {border-bottom: 4px solid #333; margin-bottom: -2px;}
+.nav li a {font-size: 20px; color: #333;}
+
+/* cont-패치 */
+.patch {}
+.patch p {text-align: right; font-weight: normal; font-size: 15px; padding: 10px 30px 0px 0px;}
+
+/* cont-경기일정 */
+.schedule {}
+.schedule h2 {font-size: 35px; padding: 10px 0 25px 30px;}
+.schedule table {margin: 0 auto;}
+.schedule table tr {}
+.schedule table .date {background: rgba(25,25,25,25); color: rgba(255,255,255,255); border-bottom: 3px solid #aaa;}
+.schedule table .date .today {background: rgba(25,25,150,25); color: rgba(255,255,255,255);}
+.schedule table tr td {width: 130px;}
+.schedule table tr td .type {}
+.schedule table tr td .team {display: block; margin-top: -10px;}
+.schedule table tr td .vs {display: block; font-size: 20px; font-weight: bold; margin: -15px 0;}
+.schedule table tr td .team {font-size: 13px;}
+.schedule table tr td .img_container {margin: 0 auto; width: 120px; height: 120px; line-height: 120px;}
+.schedule table tr td .img_container img {width: 100px; vertical-align: middle;}
+
+/* cont-토너먼트 */
+.tournament {padding-bottom: 30px;}
+.tournament h2 {font-size: 35px; padding: 10px 0 25px 30px;}
+.tournament h3 {font-size: 20px; padding: 0 0 10px 40px;}
+.tournament table {margin: 0 auto;}
+.tournament table .bold {border-bottom: 3px;}
+.tournament table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.tournament table tr {}
+.tournament table tr td {width: 270px; height: 30px;}
+.tournament table tr .win {border-left-width: 4px; border-left-color: #FFD700}
+.tournament table tr .lose {border-left-width: 4px; border-left-color: ##BDBDBD}
+.tournament table tr .bold {border-bottom-width: 3px;}
+.tournament table tr td .img_container {}
+.tournament table tr td .img_container img {height: 30px; vertical-align: middle;}
+.tournament table tr td .team_container {text-align: center;}
+.tournament table tr td .team_container team {}
+.tournament table tr td .score_container {text-align: center;}
+.tournament table tr td .score_container score {}
+
+/* cont-순위 */
+.ranking {}
+.ranking h3 {font-size: 20px; padding: 0 0 10px 40px;}
+.ranking table {margin: 0 auto; margin-bottom: 30px;}
+.ranking table tr {}
+.ranking table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
+.ranking table .thickLine {border-right: 3px solid #aaa;}
+.ranking table tr th {}
+.ranking table tr td {}
+.ranking table tr td img {height: 40px;}
+
+
+
+/* 푸터 */
+.footer {}
+.footer p {color: rgba(255,255,255,1); text-align: center; padding-top: 10px;}
+.footer address {color: rgba(255,255,255,1); text-align: center; padding-top: 10px;}
