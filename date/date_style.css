@@ -42,7 +42,7 @@
 
 /* cont-일정표 */
 .date {padding-bottom: 30px;}
-.date h3 {font-size: 30px; padding: 0 0 25px 450px;}
+.date h3 {font-size: 30px; padding: 0 0 25px 400px;}
 .date table {margin: 0 auto;}
 .date table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255); border-bottom: 3px solid #aaa;}
 .date table .inst th {}
