@@ -47,7 +47,7 @@
 .camp table tr td {}
 
 /* cont-챔피언 */
-.champions {margin-bottom: 20px; position: relative;}
+.champions {padding-bottom: 20px; position: relative;}
 .champions h2 {font-size: 35px; padding: 10px 0 25px 30px;}
 .champions table {margin: 0 auto;}
 .champions table .inst {background: rgba(25,25,25,25); color: rgba(255,255,255,255);}
