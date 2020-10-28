@@ -19,7 +19,7 @@
 .header-tit h1 a {display: block; color: rgba(255,255,255,255); line-height: 250px; font-size: 170px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
 .header-tit p {font-style: bold; color: rgba(255,255,255,255); font-size: 30px; text-align: center; font-family: 'Nanum Brush Script', cursive;}
 
-/* 컨텐츠-네브 */
+/* cont-네브 */
 .nav {}
 .nav ul {overflow: hidden;}
 .nav li {width: 200px; float: left; padding: 0 50px; line-height: 50px; text-align: center;}
